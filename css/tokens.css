@@ -1,0 +1,45 @@
+:root{
+    /*Colores */
+    --color-fondo: #161d30;
+    --color-superficie: #0d1117;
+    --color-border: #1e293b;
+    --color-texto: #f1f5f9;
+    --color-texto-segu: #94a3b8;
+    --color-marcas: #173e94;
+    --color-marca-hover: #102869;
+    --color-barra: #0d1117;
+    --color-cpp: #00599c;
+    --color-sql: #00758f;
+    --color-python: #3776ab;
+    --color-javascr: #d8c21b;
+    --color-html: #c7502f;
+    --color-git: #0f0e0e;
+
+/* Tipografia */
+
+    --fuente-base: 'Poppins', system-ui, sans-serif;
+    --texto-xs: 0.72rem;
+    --texto-sm: 0.85rem;
+    --texto-base: 1rem;
+    --texto-lg: 1.15rem;
+    --texto-xl: 1.14rem;
+    --texto-2x1: 1rem;
+    --texto-titulo: 2rem;
+
+/* Formas */
+
+    --radio-sm: 6px;
+    --radio-md: 12px;
+    --radio-lg: 20px;
+    --sombra-sm: 0 1px 4px rgba(0,0,0,0.4);
+    --sombra-md: 0 1px 5px rgba(0,0,0,0.5);
+
+/*  Espacios */
+    --gap-sm: 8px;
+    --gap-md: 16px;
+    --gap-lg: 24px;
+
+/*Transicion*/
+--trans-base: 220ms ease;
+
+}
