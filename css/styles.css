@@ -56,7 +56,6 @@ body{
 
 .galeria-seccion{
     padding: 40px 32px;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -204,8 +203,6 @@ body{
 }
 
 .perfil-tarjeta{
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: var(--color-superficie);
     border: 1px solid var(--color-borde);
@@ -215,6 +212,13 @@ body{
     max-width: 380px;
     box-shadow: var(--sombra-sm);
     gap: var(--gap-md)
+}
+
+.perfil-cabecera {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-md);
 }
 /* Fotos */
 .perfil-foto img{
@@ -238,21 +242,6 @@ body{
     text-align: center;
 }
 
-.perfil-insig {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: var(--gap-sm);
-}
-
-.insig {
-    font-size: var(--text-xs);
-    font-weight: 600;
-    padding: 4px 12px;
-    border-radius: var(--radio-sm);
-    background-color: var(--color-marcas);
-    color: var(--color-texto-sec);
-}
 
 .perfil-divisor {
     border: none;
@@ -260,13 +249,7 @@ body{
     width: 100%;
     margin: 8px 0;
 }
-.perfil-frase {
-    font-size: var(--text-sm);
-    color: var(--color-texto-sec);
-    text-align: center;
-    font-style: italic;
-    line-height: 1.6;
-}
+
 .perfil-boton {
     display: block;
     width: 100%;
